@@ -5,7 +5,7 @@ import { MdCurrencyExchange } from 'react-icons/md';
 
 import styles from './Header.module.css';
 import { useSelector } from 'react-redux';
-import { selectBaseCurrency } from '../../redux/selectors ';
+import { selectBaseCurrency } from '../../redux/selectors';
 import { SelectRates } from '..';
 
 export const Header = () => {
